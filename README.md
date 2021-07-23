@@ -15,15 +15,15 @@ Heater can be turned ON or OFF using a switch only if the seat is occupied.
 Occupancy of the seat is known by a sensor.
 
 # In Action
-*DASHBOARD_LED
- *Show heater status.
- *Connected to B0.
-*HEATER_SWITCH
- *Switch to turn heater ON or OFF.
- *Connected to D0.
-*BUTTON_SENSOR
- *Sensor (emulated as switch) to sense seat occupancy.
- *Connected to D1.
+* DASHBOARD_LED
+ * Show heater status.
+ * Connected to B0.
+* HEATER_SWITCH
+ * Switch to turn heater ON or OFF.
+ * Connected to D0.
+* BUTTON_SENSOR
+ * Sensor (emulated as switch) to sense seat occupancy.
+ * Connected to D1.
 
 
 | Case 00 | Case 01 |
