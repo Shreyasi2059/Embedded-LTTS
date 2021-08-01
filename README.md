@@ -26,10 +26,10 @@ To show the temperature input to CAN module, which shows the temperature values 
 
 ## Simulation Schematic and Output
 ###### Case 1: When Button Sensor Switch or Heater Switch or both are OFF
-![](Design_Statement/Activity_OFF.PNG)
+![Activity_OFF](https://user-images.githubusercontent.com/86352920/127766005-eda871c0-46f0-48f2-a763-25b834c7cca4.png)
 ###### Case 2: When Button Sensor Switch is ON and Heater Switch is OFF
-![](Design_Statement/Activity_ON.PNG)
-![](Design_Statement/Activity_ON1.PNG)
+![Activity_ON](https://user-images.githubusercontent.com/86352920/127766016-272ade71-4eff-4b1a-b03a-651f17381f71.png)
+![Activity_ON1](https://user-images.githubusercontent.com/86352920/127766024-cc9e99ad-a975-426f-bb3b-1434d8d6c55e.png)
 
 
 ## Process to Build the project
