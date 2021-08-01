@@ -18,4 +18,4 @@ jobs:
     - name: Install avr-gcc
       run: sudo apt-get install gcc-avr
     - name: Run cppcheck
-      run: cppcheck Implementation_CodeFiles
+      run: cppcheck Implementation_Codefiles
