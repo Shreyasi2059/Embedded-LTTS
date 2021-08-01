@@ -12,25 +12,34 @@ Objective is to make a Car Seat Heater. The whole project is divided into four d
 <img src="https://user-images.githubusercontent.com/86160630/126757412-35739259-3b69-46ac-a710-41c532277fce.png">
 
 
-# Activity 1
-Show status of the heater (ON or OFF) using an LED on the car dashboard.
-Heater can be turned ON or OFF using a switch only if the seat is occupied.
-Occupancy of the seat is known by a sensor.
+## Activity 1
+To check the status of passenger whether seated or not and show the status, then to check whether heater is on or not. If both the conditions are satisfied the LED will glow.
 
-# In Action
-* DASHBOARD_LED
- * Show heater status.
- * Connected to B0.
-* HEATER_SWITCH
- * Switch to turn heater ON or OFF.
- * Connected to D0.
-* BUTTON_SENSOR
- * Sensor (emulated as switch) to sense seat occupancy.
- * Connected to D1.
+## Activity 2
+To take the ADC value of temperature sensor as input to microcontroller.
+
+## Activity 3
+To display the temperature by showing output PWM through CRO.
+
+## Activity 4
+To show the temperature input to CAN module, which shows the temperature values gone to protocol.   
+
+## Simulation Schematic and Output
+###### Case 1: When Button Sensor Switch or Heater Switch or both are OFF
+![](Design_Statement/Activity_OFF.PNG)
+###### Case 2: When Button Sensor Switch is ON and Heater Switch is OFF
+![](Design_Statement/Activity_ON.PNG)
+![](Design_Statement/Activity_ON1.PNG)
 
 
-| Case 00 | Case 01 |
-|---------|---------|
-|<img src="https://user-images.githubusercontent.com/86160630/126757023-7dface46-afce-44c6-9624-395222b5beca.png">|<img src="https://user-images.githubusercontent.com/86160630/126757655-7cd6781f-0b19-4737-831a-87a1064c9bee.png">|
-|Case 10 | Case 11 |
-|<img src="https://user-images.githubusercontent.com/86160630/126757820-7918a187-6b4d-4bb3-8045-90adf9520a95.png">|<img src="https://user-images.githubusercontent.com/86160630/126758040-96eecf56-1691-4d0b-982c-31871e5319a9.png">|
+## Process to Build the project
+
+1. In case of codeblocks find the ZIP folder named "302457_Embedded_CaseStudy_Codeblocks" inside repository. 
+   - Open "302457_Embedded_CaseStudy_Codeblocks" then click 'view raw', the ZIP folder will be downloaded.
+   - Then unzip it and open this project in codeblocks.
+   - Build the project, you will get the '.hex' file in "bin" folder.
+2. In Visual Studio download the ZIP folder of repository and then unzip it.
+   - Open this repository in vscode.
+   - Change the working directory to "Implementation_Codefiles".
+   - Run the 'make' file in ubuntu WSL terminal.
+   - Hex and elf files will be generated inside "Implementation_Codefiles >> Build folder"
