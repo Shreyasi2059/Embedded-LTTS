@@ -1,4 +1,7 @@
-This project is part of LnT STEPin program. The objective is to learn Embedded C programming.
+Build | Code Quality |
+------|----------|
+[![C/C++ CI](https://github.com/Shreyasi2059/Embedded-LTTS/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Shreyasi2059/Embedded-LTTS/actions/workflows/c-cpp.yml)
+This project is part of LnT STEPin program. The objective is to learn Embedded C programming.|[![Code Quality - Static Code - Cppcheck](https://github.com/Shreyasi2059/Embedded-LTTS/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Shreyasi2059/Embedded-LTTS/actions/workflows/cppcheck.yml)|
 
 For simulation, SimulIDE is used.
 
